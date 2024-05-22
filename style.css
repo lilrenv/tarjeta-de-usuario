@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+.tarjeta-usuario{
+    width: 500px;
+    height: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fondo-celeste{
+    height: 100px;
+    background-color: #87CEEB;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contenido{
+    padding: 20px;
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.nombre{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ubicacion{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.ubicacion img{
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.biografia{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+}
+
+.icono-configuracion{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.editar-perfil{
+    color: #135ee9;
+    font-weight: bold;
+}
